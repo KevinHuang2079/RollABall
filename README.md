@@ -32,17 +32,17 @@ Kevin Huang
 - **Mechanics Focus:**
    - The project highlights two core mechanics: Wall Sticking and Movement.
 
-- **LIMITATIONS:
+***LIMITATIONS:
     *USER NOTE: Sticky walls can only be placed along the world's axes.
         - Wall sticking leverages Unity's rigidbody gravity attribute, dynamically turning it on and off.
         - The ball is restricted to sticking on flat surfaces of walls aligned with the x, y, or z axis. Essentially, it locks movement in one direction and transfers it to another plane. However, this plane must align with the world axis.
         - For example, if the ball moves along the x, z axis on the ground, it will move along the z, y axis when sticking to a left wall, with gravity turned off.
       
-    *BUG:
+    -**BUG:
         - The Ball's momentum is carried over when moving from ground to wall and persists until resetting by touching the ground again. 
           Begin to stick onto a wall slowly to prevent.
     
-- **Changed Scripts from Originating Game
+***Changed Scripts from Originating Game
     -** Player Control:
         - ALl of the movement is handled here, including the original movement on the ground, but also the altered movements when stick onto walls.
         - Death mechanic that resets a player back to their spawnpoint. 
@@ -55,7 +55,7 @@ Kevin Huang
             c) turns around 180 degrees if it sticks to a wall behind the ball
             d) does not change if it sticks onto a forward facing wall
             
-- **New scripts
+***New scripts
     -** STICKY:
         - Has all the altered movements when stuck on a wall.
     -** Wall Detector:
