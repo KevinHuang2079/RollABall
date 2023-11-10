@@ -1,8 +1,8 @@
-# Level Design 1 - 3D Project
+Level Design 1 - 3D Project
+Chapman University
+CPSC 244
+Kevin Huang
 
-## Overview
-
-This project is a product of Chapman University's Level Design 1 course (CPSC 244) led by Professor Kevin Huang. Building upon the Unity Tutorial Project [Roll-a-Ball](https://learn.unity.com/project/roll-a-ball), this project integrates source files available on the Unity Asset Store: [Roll-a-Ball Tutorial Complete](https://assetstore.unity.com/packages/essentials/tutorial-projects/roll-a-ball-tutorial-complete-77198).
 
 ## Mechanics
 
