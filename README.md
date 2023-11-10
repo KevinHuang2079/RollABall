@@ -38,7 +38,7 @@ Kevin Huang
         - The ball is restricted to sticking on flat surfaces of walls aligned with the x, y, or z axis. Essentially, it locks movement in one direction and transfers it to another plane. However, this plane must align with the world axis.
         - For example, if the ball moves along the x, z axis on the ground, it will move along the z, y axis when sticking to a left wall, with gravity turned off.
       
-    -**BUG:
+    **BUG:
         - The Ball's momentum is carried over when moving from ground to wall and persists until resetting by touching the ground again. 
           Begin to stick onto a wall slowly to prevent.
     
@@ -48,7 +48,7 @@ Kevin Huang
         - Death mechanic that resets a player back to their spawnpoint. 
         - Added trigger statement for touching a sticky powerup, and collision enter function for death surfaces.
     
-    -** Camera Movement:
+    ** Camera Movement:
         - The camera follows the ball but also:
             a) looks left and backs up if it sticks to a wall on the left
             b) looks right and backs up if it sticks to a wall on the right
